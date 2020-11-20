@@ -83,7 +83,6 @@ function Home() {
   return (
     <>
       <div className="home flex">
-        
         <div className="home__details flex" >
           <div className='home__list '>
             {loading ?
