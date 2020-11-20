@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.login {
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+.login .MuiSvgIcon-root {
+    color:white;
+    font-size: 40px !important;
+}
+
+.login .login__input {
+    flex-direction: column;
+}
+
+.signUp {
+    flex: 1;
+    background-color: tomato;
+}
+
+.submit {
+    width: 510px !important; 
+    justify-content: space-between !important ;
+}

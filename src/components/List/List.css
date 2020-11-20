@@ -1,0 +1,82 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  margin: 40px 10px;
+  position: relative;
+  cursor: pointer;
+  
+}
+.list > div {
+  max-width: 230px;
+  transition: all ease 0.3s;
+  border: 2px solid #00bea5;
+}
+
+.list > div:first-child:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: all ease 0.3s;
+}
+
+.list .list__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff7f2;
+  color: #00bea5;
+}
+
+.list .list__id {
+  position: absolute;
+  top: -18px;
+  background-color: white;
+  padding: 4px 10px;
+  color: #4450a5;
+  border: 2px solid #00bea5;
+  border-radius: 4px;
+}
+
+.list .list__fav {
+  position: absolute;
+  background-color: transparent;
+  top: -20px;
+  right: -8px;
+  border: none;
+  z-index: 300;
+  
+}
+
+.list .list__fav .MuiSvgIcon-root {
+  font-size: 30px;
+  color: #00bea5;
+  cursor: pointer;
+}
+
+
+.list .list__link {
+  border:none;
+}
+.linkIcon {
+  position: absolute;
+  right: 0;
+  color: #00bea5;
+  bottom: 100px;
+  right: -10px;
+  font-size : 30px !important;
+}
+
+
+.booked > div {
+  border: 2px solid red;
+}
+.booked .list__id {
+
+  border: 2px solid red;
+}
+.booked .list__fav  .MuiSvgIcon-root{
+  color: red;
+}
+
+
